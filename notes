@@ -1,0 +1,9 @@
+
+
+[root@lab-pd-node1 ~]# govc vm.change -e="disk.enableUUID=1" -vm='/SVC-DC/vm/VMs- Pedro Ferreira/OCP/lab-pd-node1.cliente1.dev'
+[root@lab-pd-node1 ~]# govc vm.change -e="disk.enableUUID=1" -vm='/SVC-DC/vm/VMs- Pedro Ferreira/OCP/lab-pd-node2.cliente1.dev'
+[root@lab-pd-node1 ~]# govc vm.change -e="disk.enableUUID=1" -vm='/SVC-DC/vm/VMs- Pedro Ferreira/OCP/lab-pd-node3.cliente1.dev'
+[root@lab-pd-node1 ~]# govc vm.change -e="disk.enableUUID=1" -vm='/SVC-DC/vm/VMs- Pedro Ferreira/OCP/lab-pd-node4.cliente1.dev'
+[root@lab-pd-node1 ~]# govc vm.change -e="disk.enableUUID=1" -vm='/SVC-DC/vm/VMs- Pedro Ferreira/OCP/lab-pd-node5.cliente1.dev'
+[root@lab-pd-node1 ~]# govc vm.change -e="disk.enableUUID=1" -vm='/SVC-DC/vm/VMs- Pedro Ferreira/OCP/lab-pd-node6.cliente1.dev'
+[root@lab-pd-node1 ~]# govc vm.change -e="disk.enableUUID=1" -vm='/SVC-DC/vm/VMs- Pedro Ferreira/OCP/lab-pd-node7.cliente1.dev'
